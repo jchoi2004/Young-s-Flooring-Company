@@ -1,0 +1,21 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address {
+    text-align: right;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.caption {
+    text-align: right;
+  }
