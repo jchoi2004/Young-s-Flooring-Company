@@ -7,14 +7,15 @@ The goal of our website is to create an online customer service for people to sc
 The main focus of our website is to create a reliable customer service for looring and other types of installations for people to browse through and choose.
 
 A few features about our website:
-
-Clean and neat font
-Simple textured background pattern
-Our top priority list on the main page
-A carousel to filter through
-A simple sign-up format for requesting an estimate
-An about us page talking a little bit about ourselves
-Interestingly designed material list and pictures
-Dropdown box on the estimate request page to check which items you want to choose
-Detailed description about materials
-Thank you for taking this time to view our website. We appreicate it very much!
+<ul>
+    <li>Clean and neat font</li>
+    <li>Simple textured background pattern</li>
+    <li>Our top priority list on the main page</li>
+    <li>A carousel to filter through</li>
+    <li>A simple sign-up format for requesting an estimate</li>
+    <li>An about us page talking a little bit about ourselves</li>
+    <li>Interestingly designed material list and pictures</li>
+    <li>Dropdown box on the estimate request page to check which items you want to choose</li>
+    <li>Detailed description about materials</li>
+    <li>Thank you for taking this time to view our website. We appreicate it very much!</li>
+</ul>
