@@ -17,5 +17,5 @@ A few features about our website:
     <li>Interestingly designed material list and pictures</li>
     <li>Dropdown box on the estimate request page to check which items you want to choose</li>
     <li>Detailed description about materials</li>
-    <li>Thank you for taking this time to view our website. We appreicate it very much!</li>
 </ul>
+    Thank you for taking this time to view our website. We appreicate it very much!
