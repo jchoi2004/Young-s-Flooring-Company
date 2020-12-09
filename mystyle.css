@@ -19,3 +19,7 @@
 .caption {
     text-align: right;
   }
+
+  .ceramic {
+    border: 5px solid #555;
+  }

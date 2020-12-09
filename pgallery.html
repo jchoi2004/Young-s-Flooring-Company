@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A website for customizing your house">
+    <meta name="keywords" content="flooring, installations, local flooring, reliable flooring installations">
+    <meta name="author" content="Jellyfish Inc.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young's Flooring Company</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body style="background-color: rgba(151, 125, 37, 0.534);">
+    <div style="background-image: url('https://images.pexels.com/photos/1303092/pexels-photo-1303092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="navbar-toggler-icon"></span>
+                    </button> <a class="navbar-brand" href="index.html">Young's Flooring</a>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="estimatereq.html">Estimate Request <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="aboutus.html">About Us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="http://example.com"
+                                    id="navbarDropdownMenuLink" data-toggle="dropdown">Projects and More!</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="flooring.html">Flooring and Showers</a> <a class="dropdown-item"
+                                        href="addprojects.html">Additional Projects</a> <a class="dropdown-item" href="pgallery.html">Project Photo Gallery
+                                        </a>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h3>
+                    Project Photo Gallery
+                </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="carousel slide" id="carousel-248563">
+                            <ol class="carousel-indicators">
+                                <li data-slide-to="0" data-target="#carousel-248563" class="active">
+                                </li>
+                                <li data-slide-to="1" data-target="#carousel-248563">
+                                </li>
+                                <li data-slide-to="2" data-target="#carousel-248563">
+                                </li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAHQxHmS9LBFIlOWhbx5HXXQ%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTQ4MzQsImV4cCI6MTYwNzQ5NTQzNCwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Aw0DoWiDJi6PMCgXgr-k47gp41se4KHc471ZltqNfCef4T_Pk2th7JFgTQ9peUS8sAtMfxHPxRc7h9DuNzrW4KflGXX0XG0N45rVdZrGmfripd45HSsFUlckIu0YhgtXD6JdRMDtq5cZPTrbib71spKvJqVsdOpDszKXhrXiwAouc94sLug2WttP1rT-NIhfrOV6zODUPF7C_9a_g2yQjc7JhBxBZ-7PlInyMFgka8rb0VTpMZ_Cb1BLGfy6xE10FLvtId616_EIUCcFlk3EBHEn2DtKM7BFY9mzFQ7R1tvem0WXl_rFalFdWd7BZVxdvopYdgHaW-j3_mUvZIvMmA&X-OWA-CANARY=J5KZLD4neUqiRoes_kvruhBCqIwKnNgYMdtcI3syjh8tZE9c_jRhlU56jrgHMyiMUxJ97z1FRLQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true"  height= "300px"/>
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Backsplash
+                                        </h4>
+                                   
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAOJmTo7Y5hhEtLndYaHYU8w%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTQ4MzQsImV4cCI6MTYwNzQ5NTQzNCwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Aw0DoWiDJi6PMCgXgr-k47gp41se4KHc471ZltqNfCef4T_Pk2th7JFgTQ9peUS8sAtMfxHPxRc7h9DuNzrW4KflGXX0XG0N45rVdZrGmfripd45HSsFUlckIu0YhgtXD6JdRMDtq5cZPTrbib71spKvJqVsdOpDszKXhrXiwAouc94sLug2WttP1rT-NIhfrOV6zODUPF7C_9a_g2yQjc7JhBxBZ-7PlInyMFgka8rb0VTpMZ_Cb1BLGfy6xE10FLvtId616_EIUCcFlk3EBHEn2DtKM7BFY9mzFQ7R1tvem0WXl_rFalFdWd7BZVxdvopYdgHaW-j3_mUvZIvMmA&X-OWA-CANARY=J5KZLD4neUqiRoes_kvruhBCqIwKnNgYMdtcI3syjh8tZE9c_jRhlU56jrgHMyiMUxJ97z1FRLQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "300px"/>
+                                    <div class="carousel-caption">
+                                 
+                                    
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAKaJxpQgeHVNtsnCky2XDtc%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTQ4MzQsImV4cCI6MTYwNzQ5NTQzNCwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Aw0DoWiDJi6PMCgXgr-k47gp41se4KHc471ZltqNfCef4T_Pk2th7JFgTQ9peUS8sAtMfxHPxRc7h9DuNzrW4KflGXX0XG0N45rVdZrGmfripd45HSsFUlckIu0YhgtXD6JdRMDtq5cZPTrbib71spKvJqVsdOpDszKXhrXiwAouc94sLug2WttP1rT-NIhfrOV6zODUPF7C_9a_g2yQjc7JhBxBZ-7PlInyMFgka8rb0VTpMZ_Cb1BLGfy6xE10FLvtId616_EIUCcFlk3EBHEn2DtKM7BFY9mzFQ7R1tvem0WXl_rFalFdWd7BZVxdvopYdgHaW-j3_mUvZIvMmA&X-OWA-CANARY=Q9P5siib0UKjCImQNfeBj4D1lwULnNgY7sovDQ8_Of_fwnPzdCzR_USer9WUuprjF94G5bKSipQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "300px"/>
+                                    <div class="carousel-caption">
+                                      
+                                    
+                                    </div>
+                                </div>
+                            </div> <a class="carousel-control-prev" href="#carousel-248563" data-slide="prev"><span
+                                    class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-248563" data-slide="next"><span
+                                    class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="carousel slide" id="carousel-434066">
+                            <ol class="carousel-indicators">
+                                <li data-slide-to="0" data-target="#carousel-434066" class="active">
+                                </li>
+                                <li data-slide-to="1" data-target="#carousel-434066">
+                                </li>
+                                <li data-slide-to="2" data-target="#carousel-434066">
+                                </li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQALPM0HJKyR9MlhTCmVBltJ4%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=rIBoSiDep0qp-leqkQju7ZC5eFYLnNgYYuVYovuvhEPWeH40jaf2DTmqEzfTzcE1nbD1hcMWRpo.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "300px"/>
+                                    <div class="carousel-caption">
+                                        <h4>
+                                            Floors
+                                        </h4>
+                                     
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQALzPXKsin%2BZPuyKe60JyKsA%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=rIBoSiDep0qp-leqkQju7ZC5eFYLnNgYYuVYovuvhEPWeH40jaf2DTmqEzfTzcE1nbD1hcMWRpo.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "300px"/>
+                                    <div class="carousel-caption">
+ 
+                                    
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" alt="Carousel picture"
+                                        src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAAbikcfZH1hLv6BbiieDdik%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=pgulW9QCwUmDEplGFX0r4xBQU1ULnNgYZhuI4Uv11e_M1IXfLFIKzOn7NRt1EAiU2G7lec_--xE.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "300px"/>
+                                    <div class="carousel-caption">
+                                    
+                                     
+                                    </div>
+                                </div>
+                            </div> <a class="carousel-control-prev" href="#carousel-434066" data-slide="prev"><span
+                                    class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a>
+                            <a class="carousel-control-next" href="#carousel-434066" data-slide="next"><span
+                                    class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="carousel slide" id="carousel-136408">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-136408" class="active">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-136408">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-136408">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAOeEGIgh7kxEuiZYZ%2BfXn4M%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=pgulW9QCwUmDEplGFX0r4xBQU1ULnNgYZhuI4Uv11e_M1IXfLFIKzOn7NRt1EAiU2G7lec_--xE.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                                <h4>
+                                    Fireplace
+                                </h4>
+                            
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAEktsCvvajhLlYR%2FhgpUhvo%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=pgulW9QCwUmDEplGFX0r4xBQU1ULnNgYZhuI4Uv11e_M1IXfLFIKzOn7NRt1EAiU2G7lec_--xE.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                           
+                             
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAIJ95h8x1jVMn4H9pAQSpBI%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTUxMzksImV4cCI6MTYwNzQ5NTczOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.j1TfAMTLESaFR_umpqCCmtmxBlHSo2liIVAQk1VzgY0YXZt0aTx9zWHn1PeWlWYFMjcXk8ElqMe5uLoQMJU8JCyZMDJP2bESfkqBbtge8s9goZMVXJbc0IvNDgoqfqJL4RZmDgAnQJ-gpdVo-YtV3ypFpVb6ZPStFUWgCJYLppmEOfY5Yb0wDvpIpXjz3dsSU6as-9F1MdOugX1A2PKo9-JzQeoxYK_D9X69zLQ4dHlNM0SG5cwdVVbHkGMHMW6NROXxdPmEAgRRoN0h_H6wp8N2takb0ogDHeIG7hhB1RWJVK2RlQTdJgwFUUbFYvUaLCwdx685Uhq0L2bGRBLTYA&X-OWA-CANARY=pgulW9QCwUmDEplGFX0r4xBQU1ULnNgYZhuI4Uv11e_M1IXfLFIKzOn7NRt1EAiU2G7lec_--xE.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                           
+                               
+                            </div>
+                        </div>
+                    </div> <a class="carousel-control-prev" href="#carousel-136408" data-slide="prev"><span
+                            class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+                        class="carousel-control-next" href="#carousel-136408" data-slide="next"><span
+                            class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="carousel slide" id="carousel-887047">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-887047" class="active">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-887047">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-887047">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSGAAABEgAQAILo%2FllCsVhNkRe6r4Vg%2F%2BU%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU0MzksImV4cCI6MTYwNzQ5NjAzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.oCDNJdRdFbJiNe0zSCYTSfR2qglhQJy8YG7O14uf4q6xzk1HkR20W5STbK6_RW7IrhqJDKCfmeRF-lxAd_yTk-Bfx-8LezH7Gozdx0W1Jq7KHFCkIHZXdQqbpD5MJvNVqRZZoMc05wKB9ebTvcYgRUZygE8gE6Ee6IijgO62r7WGL25PiViWC1p00w6f6cJ5aulm6HsiSgTL1VWbiSv-U5c65IYQdTggJJ916yl1VE04Uau8YV7q21FoZIN45VjrzRywOhmxzrfUwSMmnYgaaaQuew-0hsmTXgR6Q9xOsRZPZWBdXbEvPB4R0S-NlBJcjXWp32cIfzXNZXYMHXYEBw&X-OWA-CANARY=I0m9HceDuUG3DU8sl9Pif1CVvW4MnNgYpRmAmX9zxg4Z52N2sFNwO3km3C26ghQxaif-_8-NHkg.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                                <h4>
+                                    Shower Construction
+                                </h4>
+                            
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSGAAABEgAQALyeuWut29hFv3E8b3r8ic0%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU0MzksImV4cCI6MTYwNzQ5NjAzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.oCDNJdRdFbJiNe0zSCYTSfR2qglhQJy8YG7O14uf4q6xzk1HkR20W5STbK6_RW7IrhqJDKCfmeRF-lxAd_yTk-Bfx-8LezH7Gozdx0W1Jq7KHFCkIHZXdQqbpD5MJvNVqRZZoMc05wKB9ebTvcYgRUZygE8gE6Ee6IijgO62r7WGL25PiViWC1p00w6f6cJ5aulm6HsiSgTL1VWbiSv-U5c65IYQdTggJJ916yl1VE04Uau8YV7q21FoZIN45VjrzRywOhmxzrfUwSMmnYgaaaQuew-0hsmTXgR6Q9xOsRZPZWBdXbEvPB4R0S-NlBJcjXWp32cIfzXNZXYMHXYEBw&X-OWA-CANARY=I0m9HceDuUG3DU8sl9Pif1CVvW4MnNgYpRmAmX9zxg4Z52N2sFNwO3km3C26ghQxaif-_8-NHkg.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                            
+                            
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSGAAABEgAQAEV4CwIsN5pEiKkNSOlSPt4%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU0MzksImV4cCI6MTYwNzQ5NjAzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.oCDNJdRdFbJiNe0zSCYTSfR2qglhQJy8YG7O14uf4q6xzk1HkR20W5STbK6_RW7IrhqJDKCfmeRF-lxAd_yTk-Bfx-8LezH7Gozdx0W1Jq7KHFCkIHZXdQqbpD5MJvNVqRZZoMc05wKB9ebTvcYgRUZygE8gE6Ee6IijgO62r7WGL25PiViWC1p00w6f6cJ5aulm6HsiSgTL1VWbiSv-U5c65IYQdTggJJ916yl1VE04Uau8YV7q21FoZIN45VjrzRywOhmxzrfUwSMmnYgaaaQuew-0hsmTXgR6Q9xOsRZPZWBdXbEvPB4R0S-NlBJcjXWp32cIfzXNZXYMHXYEBw&X-OWA-CANARY=I0m9HceDuUG3DU8sl9Pif1CVvW4MnNgYpRmAmX9zxg4Z52N2sFNwO3km3C26ghQxaif-_8-NHkg.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height= "500px"/>
+                            <div class="carousel-caption">
+                            
+                             
+                            </div>
+                        </div>
+                    </div> <a class="carousel-control-prev" href="#carousel-887047" data-slide="prev"><span
+                            class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+                        class="carousel-control-next" href="#carousel-887047" data-slide="next"><span
+                            class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="carousel slide" id="carousel-67454">
+                    <ol class="carousel-indicators">
+                        <li data-slide-to="0" data-target="#carousel-67454" class="active">
+                        </li>
+                        <li data-slide-to="1" data-target="#carousel-67454">
+                        </li>
+                        <li data-slide-to="2" data-target="#carousel-67454">
+                        </li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAE%2FOJRowvb1DuBcxFIfLMoI%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU3MzksImV4cCI6MTYwNzQ5NjMzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Hn0xGCB7PMw196NMtSF_qGdGJLvDqJVuWDufZptYavJ_SAE25uuhGInkwae7bV0eF4ubeKUoyKY35_rrj_MPR2tMLuZA_qAa_AtRAgpE0EE8yA09h1zADqswYRPofvN5keTxOm_r_7QP5SDOeDe40G1EylhYA4DqxFXuUL5jgzbModzTqdkbfmFWWmoftPMdz5KGQbAwHSW3rokSWX8LCH-TwoRUETFkFKYB2FCLsJIU7gE-QjIM_K-2hRa0YXEnWjiLkkO1sseTGfWM1BNQElriJORciyeMMfBS1UT-dFWZeUW9MMu41BgtmJw2f4R1SrtoljhtKtZldsTRXX-TEA&X-OWA-CANARY=lY32fKaGyUuQ54ucW07gz6DlotEMnNgY11LDiDAhsKXAbsckDOdfj8A9ytwhtwy8bot-J8pm5tQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height="600px" width= "20px"/>
+                            <div class="carousel-caption">
+                                <h4>
+                                    Showers
+                                </h4>
+                               
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAM%2BOvHvEy%2B5OtR5%2BeVAjfIg%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU3MzksImV4cCI6MTYwNzQ5NjMzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Hn0xGCB7PMw196NMtSF_qGdGJLvDqJVuWDufZptYavJ_SAE25uuhGInkwae7bV0eF4ubeKUoyKY35_rrj_MPR2tMLuZA_qAa_AtRAgpE0EE8yA09h1zADqswYRPofvN5keTxOm_r_7QP5SDOeDe40G1EylhYA4DqxFXuUL5jgzbModzTqdkbfmFWWmoftPMdz5KGQbAwHSW3rokSWX8LCH-TwoRUETFkFKYB2FCLsJIU7gE-QjIM_K-2hRa0YXEnWjiLkkO1sseTGfWM1BNQElriJORciyeMMfBS1UT-dFWZeUW9MMu41BgtmJw2f4R1SrtoljhtKtZldsTRXX-TEA&X-OWA-CANARY=lY32fKaGyUuQ54ucW07gz6DlotEMnNgY11LDiDAhsKXAbsckDOdfj8A9ytwhtwy8bot-J8pm5tQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height="600px" width= "20px"/>
+                            <div class="carousel-caption">
+                              
+                               
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" alt="Carousel picture"
+                                src="https://attachments.office.net/owa/Aaron.Young%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkAGE3ZTk4ZWQyLWUzMDItNDNhMi1iMzhmLTY4NjMwZjQ0NmIzYwBGAAAAAADrws3oLZPTRo5CPV7s%2B52dBwANT%2Fr5tBJ0TYYb4UGQgxlaAAAAAAEMAAANT%2Fr5tBJ0TYYb4UGQgxlaAAT1OzSFAAABEgAQAFIULuASjNxJmNruivhaOmc%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjU2MzU4ODUyMzRCOTI1MkRERTAwNTc2NkQ5RDlGMjc2NTY1RjYzRTIiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJWaldJVWpTNUpTM2VBRmRtMmRueWRsWmZZLUkifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMDQ3NTY3MjY0YTQyNGRkNDkwNDI0ZGQxYWIzYWEyOGEiLCJ2ZXIiOiJFeGNoYW5nZS5DYWxsYmFjay5WMSIsImFwcGN0eHNlbmRlciI6Ik93YURvd25sb2FkQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImlzc3JpbmciOiJXVyIsImFwcGN0eCI6IntcIm1zZXhjaHByb3RcIjpcIm93YVwiLFwicHVpZFwiOlwiMTE1MzkwNjY2MDkwNDMyNTQ3OVwiLFwic2NvcGVcIjpcIk93YURvd25sb2FkXCIsXCJvaWRcIjpcImU0ZGE4MThkLWFmNDEtNDk5Ni1iODNmLTM3OGMzOTRjZjMzMVwiLFwicHJpbWFyeXNpZFwiOlwiUy0xLTUtMjEtODAyNjY5NTQ0LTc0NTY1MTA0MS0zOTM4MzcwMTM3LTIzMzEyNTZcIn0iLCJuYmYiOjE2MDc0OTU3MzksImV4cCI6MTYwNzQ5NjMzOSwiaXNzIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwQGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImF1ZCI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMC9hdHRhY2htZW50cy5vZmZpY2UubmV0QGQ5ODJmM2RjLThjMjUtNGQ3OS1hNzI5LWY2ZDQ3ZDYwY2ZlNSIsImhhcHAiOiJvd2EifQ.Hn0xGCB7PMw196NMtSF_qGdGJLvDqJVuWDufZptYavJ_SAE25uuhGInkwae7bV0eF4ubeKUoyKY35_rrj_MPR2tMLuZA_qAa_AtRAgpE0EE8yA09h1zADqswYRPofvN5keTxOm_r_7QP5SDOeDe40G1EylhYA4DqxFXuUL5jgzbModzTqdkbfmFWWmoftPMdz5KGQbAwHSW3rokSWX8LCH-TwoRUETFkFKYB2FCLsJIU7gE-QjIM_K-2hRa0YXEnWjiLkkO1sseTGfWM1BNQElriJORciyeMMfBS1UT-dFWZeUW9MMu41BgtmJw2f4R1SrtoljhtKtZldsTRXX-TEA&X-OWA-CANARY=lY32fKaGyUuQ54ucW07gz6DlotEMnNgY11LDiDAhsKXAbsckDOdfj8A9ytwhtwy8bot-J8pm5tQ.&owa=outlook.office.com&scriptVer=20201130001.11&animation=true" height="600px" width= "20px"/>
+                            <div class="carousel-caption">
+                               
+                               
+                            </div>
+                        </div>
+                    </div> <a class="carousel-control-prev" href="#carousel-67454" data-slide="prev"><span
+                            class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a
+                        class="carousel-control-next" href="#carousel-67454" data-slide="next"><span
+                            class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-8">
+                <h4>Contacts</h4>
+                <ul>
+                    <li class="list-item">
+                        John.Choi@students.jmcss.org <br> Aaron.Young@students.jmcss.org <br> company email
+                    </li>
+                    <li class="list-item">
+                        Company Number: 731-467-0208
+                    </li>
+                    <li class="list-item">
+                        Help and Support
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+
+                <address>
+                    <strong>Office Location</strong><br /> 795 Folsom Ave, Suite 600<br /> Jackson, TN 38305<br /> <abbr
+                        title="Phone">P:</abbr> (731) 467-0208
+                </address> <a href="aboutus.html" class="btn btn-secondary" type="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
